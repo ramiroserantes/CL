@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="19.21717108951384" y="365.0225790827651">com.daarthy.guilds.app.modules.banks.UserBank</node>
+    <node x="214.31247339252417" y="117.92889780321589">com.daarthy.guilds.app.modules.banks.AbstractBank</node>
+    <node x="-98.5457104205451" y="167.59771235189058">com.daarthy.guilds.app.modules.banks.KdBuffer</node>
+    <node x="490.9005729867398" y="171.9311541901791">com.daarthy.guilds.app.modules.banks.KingdomBank</node>
+    <node x="164.74665386992396" y="-106.41637303371209">com.daarthy.guilds.app.modules.banks.Bank</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.daarthy.guilds.app.modules.banks.KingdomBank" target="com.daarthy.guilds.app.modules.banks.AbstractBank" relationship="GENERALIZATION">
+      <point x="-121.49957298673979" y="12.997845809820916" />
+      <point x="196.0" y="322.429" />
+      <point x="196.0" y="211.429" />
+      <point x="-108.00047339252417" y="1.021967841090543E-4" />
+    </edge>
+    <edge source="com.daarthy.guilds.app.modules.banks.AbstractBank" target="com.daarthy.guilds.app.modules.banks.Bank" relationship="REALIZATION">
+      <point x="-49.56581952260021" y="-93.5" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="com.daarthy.guilds.app.modules.banks.UserBank" target="com.daarthy.guilds.app.modules.banks.AbstractBank" relationship="GENERALIZATION">
+      <point x="78.49982891048616" y="4.209172348623724E-4" />
+      <point x="196.0" y="392.023" />
+      <point x="196.0" y="211.429" />
+      <point x="-108.00047339252417" y="1.021967841090543E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0818815331010454" showDependencies="false" x="327.5" y="180.0" />
+  <SelectedNodes>
+    <node>com.daarthy.guilds.app.modules.banks.AbstractBank</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
